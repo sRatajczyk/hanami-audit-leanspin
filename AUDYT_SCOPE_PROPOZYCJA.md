@@ -13,13 +13,13 @@ SE Platform to pionowe oprogramowanie SaaS do zarządzania i rozliczania polskic
 
 **Klient docelowy:** Greenlab Sp. z o.o. — spółka z udziałem podmiotów państwowych powiązanych z KOWR, powołana z misją zakładania i operacyjnej obsługi spółdzielni energetycznych dla lokalnych oddziałów KOWR w skali ogólnopolskiej. Zakres: rejestracja SE (KRS, KOWR), uruchomienie operacyjne, rozliczenia miesięczne, komunikacja z członkami i OSD. Greenlab pełni rolę centralnego operatora — jedno środowisko technologiczne dla wszystkich obsługiwanych SE. Bez automatyzacji rozliczeń program zatrzymuje się operacyjnie przy 2–3 SE (fizyczna granica Excela), co czyni platformę SE warunkiem technicznym istnienia tego biznesu w skali.
 
-**Inwestor:** SSRI — spółka inwestycyjna powiązana ze środowiskiem KOWR, dysponująca kapitałem przeznaczonym na inwestycje w rozwój OZE. Pełna decyzyjność operacyjna po stronie jednego managera.
+**Inwestor:** RRSI — spółka inwestycyjna powiązana ze środowiskiem KOWR, dysponująca kapitałem przeznaczonym na inwestycje w rozwój OZE. Pełna decyzyjność operacyjna po stronie jednego managera.
 
 **Pierwszy klient produkcyjny:** SE Jaworze (Tauron OSD), 18 PPE, dane pomiarowe kwiecień 2026. Platforma działa — pierwsze rozliczenie uruchomione, proformy wygenerowane.
 
 **Kontekst transformacji u klienta:** Obecna prezes Greenlab (od marca 2026, prawnik z wykształcenia, pełna decyzyjność operacyjna) przejęła spółkę po kilkunastoosobowym zespole, który przez 3 lata zajmował się rozwijaniem programu SE — głównie formalnościami, rejestracjami i próbami uruchomienia spółdzielni, z nakładami rzędu 4 mln zł i ograniczonymi efektami. Poprzednia ekipa w ogóle nie podeszła do budowy narzędzia do rozliczeń — obecnie identyfikowane jako kluczowa luka blokująca skalowanie programu.
 
-**Pipeline:** ~100 SE w fazie rejestracji w KOWR, planowane podpięcie do platformy w pierwszym półroczu od uruchomienia.
+**Pipeline:** ~100 SE w fazie rejestracji w KOWR, planowane podpięcie do platformy w pierwszym półroczu od uruchomienia (do walidacji).
 
 **Etap produktu:** MVP funkcjonalny z jednym klientem produkcyjnym i działającym silnikiem rozliczeniowym (zweryfikowany 100% vs Excel klienta). Architektura multi-tenant od początku, ale produkt wymaga prac dostosowawczych przed obsługą 5+ SE (zarządzanie użytkownikami, branding, parametry regulacyjne, automatyzacja onboardingu).
 
